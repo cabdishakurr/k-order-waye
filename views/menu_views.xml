@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_restaurant_root" 
+              name="Restaurant Orders" 
+              sequence="10"/>
+
+    <menuitem id="menu_restaurant_orders"
+              name="Orders"
+              parent="menu_restaurant_root"
+              action="action_restaurant_orders"
+              sequence="10"/>
+
+    <menuitem id="menu_kitchen_display"
+              name="Kitchen Display"
+              parent="menu_restaurant_root"
+              action="action_kitchen_display"
+              sequence="20"/>
+</odoo>

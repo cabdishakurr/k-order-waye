@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="kitchen_display" name="Kitchen Display">
+        <t t-call="web.layout">
+            <div class="kitchen-display">
+                <div class="order-columns">
+                    <div class="order-column to-cook">
+                        <h2>To Cook <span class="counter"/></h2>
+                        <div class="order-list"/>
+                    </div>
+                    <div class="order-column ready">
+                        <h2>Ready <span class="counter"/></h2>
+                        <div class="order-list"/>
+                    </div>
+                    <div class="order-column completed">
+                        <h2>Completed <span class="counter"/></h2>
+                        <div class="order-list"/>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </template>
+</odoo>
